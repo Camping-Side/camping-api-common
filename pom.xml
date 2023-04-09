@@ -10,12 +10,13 @@
     </parent>
     <groupId>com.camping</groupId>
     <artifactId>common</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>common</name>
     <description>common</description>
     <properties>
         <java.version>11</java.version>
         <swagger.version>2.9.2</swagger.version>
+        <maven.test.skip>true</maven.test.skip>
     </properties>
     <dependencies>
         <dependency>
