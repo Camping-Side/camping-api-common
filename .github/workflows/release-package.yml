@@ -18,10 +18,12 @@ jobs:
         with:
           java-version: 11
 
-      - name: Build with Maven
-        run: mvn -B package --file pom.xml
+      - name: Configure Git user
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
 
-      - name: Deploy to Github Packages
-        run: mvn -B deploy --file pom.xml
+      - name: Publish JAR
+        run: ./mvnw -B release:prepare release:perform
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
