@@ -99,7 +99,13 @@
         </repository>
 
     </repositories>
-
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub</name>
+            <url>https://maven.pkg.github.com/Camping-Side/camping-api-common</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
