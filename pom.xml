@@ -84,14 +84,22 @@
         </dependency>
     </dependencies>
 
-
-    <distributionManagement>
+    <repositories>
         <repository>
             <id>github</id>
-            <name>GitHub</name>
+            <name>Camping Api Common</name>
             <url>https://maven.pkg.github.com/Camping-Side/camping-api-common</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
         </repository>
-    </distributionManagement>
+
+    </repositories>
+
 
     <build>
         <plugins>
