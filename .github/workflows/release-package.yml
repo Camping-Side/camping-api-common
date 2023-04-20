@@ -1,8 +1,6 @@
 name: CI-CD
 
-on:
-  release:
-    type: [created]
+on: [push]
 
 
 jobs:
