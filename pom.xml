@@ -93,6 +93,8 @@
         </repository>
 
     </repositories>
+    <!-- 프로젝트를 원격 리포지토리에 배포하기 위한 요소
+        URL, 프로토콜, 사용자 이름 및 암호를 설정 가능함-->
     <distributionManagement>
         <repository>
             <id>github</id>
