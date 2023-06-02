@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.camping</groupId>
     <artifactId>common</artifactId>
-    <version>1.0.10-REALEASE</version>
+    <version>1.0.11-REALEASE</version>
     <name>common</name>
     <description>common</description>
     <properties>
