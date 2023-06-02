@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.camping</groupId>
     <artifactId>common</artifactId>
-    <version>1.0.11-REALEASE</version>
+    <version>1.0.12-REALEASE</version>
     <name>common</name>
     <description>common</description>
     <properties>
@@ -74,6 +74,12 @@
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-jpa</artifactId>
             <version>2.7.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-core</artifactId>
+            <version>5.7.7</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
